@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+         body{
+          background-image: url("image.jpg");
+          background-repeat: no-repeat;    
+          background-size: 100%;
+      }
+    </style> 
+
+  <title align="center">Turbine Power Output Generator</title>
+  <meta content="text/html; charset=utf-8" />
+    
+</head>
+
+<body>
+  <h1 align="center">Wind Turbine power output</h1>
+  <h3 align="center"><i>Kevin Flanagan G00228079</i></h3> 
+
+  <p>
+    Please enter a Wind speed that will be calculated and outputted below.
+  </p>
+
+  <form action="/" method="POST">
+    <label for="speed_input">Wind Speed: </label>
+    <br>
+    <input type="number" id="speed_input" name="speed_input" value="0" step="0.001">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <p><b>Power output is for this turbine is as follows = {{prediction}}</b></p>   
+  
+</body>
+
+</html>
