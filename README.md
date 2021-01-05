@@ -59,4 +59,6 @@ jupyter notebook
  * To kill the program that is running use the command: docker kill CONTAINER_ID
 
  * To remove a Docker image use the command: docker rm CONTAINER_ID 
+ 
+ ### Runs on http://127.0.0.1:5000/ 
 
