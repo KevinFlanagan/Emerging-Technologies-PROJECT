@@ -41,3 +41,22 @@ pip install notebook
 Open to the correct repository directory.
 
 jupyter notebook
+
+### How to run flask app on local machine
+
+ * set FLASK_APP=webservice.py
+
+ * python -m flask run
+
+### Commands to Build, Run, Kill & Remove a Docker Image
+
+ * To build a a Docker image use the command: docker build -t web-service .
+
+ * To run the Docker image use the command: docker run -d -p 5000:5000 web-service
+
+ * To check if the Docker image is running use the command: docker container ls
+
+ * To kill the program that is running use the command: docker kill CONTAINER_ID
+
+ * To remove a Docker image use the command: docker rm CONTAINER_ID 
+
