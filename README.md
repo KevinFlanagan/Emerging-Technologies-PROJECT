@@ -44,7 +44,7 @@ jupyter notebook
 
 ### How to run flask app on local machine
 
- * set FLASK_APP=webservice.py
+ * set FLASK_APP=webApp.py
 
  * python -m flask run
 
